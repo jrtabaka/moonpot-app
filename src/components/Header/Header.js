@@ -223,7 +223,7 @@ function NavbarPotsPrice() {
     <div className={classes.navbarPotsPrice}>
       <img
         src={Pots}
-        width={24}
+        width={48}
         height={24}
         aria-hidden={true}
         alt=""
@@ -233,7 +233,7 @@ function NavbarPotsPrice() {
         <PotsPrice />
       </div>
       <PrimaryButton
-        variant="purple"
+        variant="black"
         className={clsx(classes.buyButton, classes.navbarBuyButton)}
         href={buyPotsUrl}
         target="_blank"
