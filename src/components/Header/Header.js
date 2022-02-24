@@ -267,7 +267,7 @@ export function Header() {
             <a href="/" onClick={handleHome} className={classes.logoLink}>
               <img
                 src={showFullLogo ? MoonpotDotCom : Moonpot}
-                alt="Moonpot.com"
+                alt="Bantu.org"
                 className={classes.logo}
                 width={showFullLogo ? (2700 / 620) * 36 : (569.052 / 605.212) * 36}
                 height={36}
