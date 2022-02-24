@@ -40,7 +40,7 @@ const links = [
   },
 ];
 
-const buyPotsUrl = 'https://app.1inch.io/#/56/classic/swap/BUSD/POTS';
+const buyPotsUrl = 'https://app.1inch.io/#/56/classic/swap/BUSD/CAKE';
 
 function MenuLink({ external, href, label, match, onClick, ...rest }) {
   const { t } = useTranslation();
