@@ -233,7 +233,7 @@ function NavbarPotsPrice() {
         <PotsPrice />
       </div>
       <PrimaryButton
-        variant="purple"
+        variant="black"
         className={clsx(classes.buyButton, classes.navbarBuyButton)}
         href={buyPotsUrl}
         target="_blank"
