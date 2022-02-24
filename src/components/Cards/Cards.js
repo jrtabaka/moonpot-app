@@ -27,10 +27,10 @@ export const Card = forwardRef(function (
   return (
     <Grid
       item
-      lg={4}
-      md={6}
-      sm={6}
-      xs={12}
+      lg={2}
+      md={3}
+      sm={3}
+      xs={6}
       className={oneColumn ? classes.cardGridInnerCentered : classes.cardGridInner}
     >
       <div
