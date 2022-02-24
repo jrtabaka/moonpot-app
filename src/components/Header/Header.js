@@ -178,7 +178,7 @@ function Sidebar() {
             </div>
           </div>
           <PrimaryButton
-            variant="purple"
+            variant="black"
             className={clsx(classes.buyButton, classes.sidebarBuyButton)}
             href={buyPotsUrl}
             target="_blank"
